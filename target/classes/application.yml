@@ -1,0 +1,29 @@
+server:
+    port: 8080
+
+spring:
+    profiles:
+        active: dev
+
+    datasource:
+        url: jdbc:postgresql://localhost:5432/postgres
+        username: pos
+        password: cloud1234
+    #    platform: postgres
+
+    initialization-mode: always
+    initialization: true
+    continue-on-error: true
+    jpa:
+        hibernate:
+            naming_strategy: org.hibernate.cfg.EJB3NamingStrategy
+            naming:
+                physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+            #      ddl-auto: update
+            show-sql: true
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.PostgreSQLDialect
+                temp:
+                    use_jdbc_metadata_defaults: false
+                enable_lazy_load_no_trans: true
