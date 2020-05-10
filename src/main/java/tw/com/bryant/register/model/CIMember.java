@@ -17,7 +17,6 @@ public class CIMember {
     @Column(name="id")
     @SequenceGenerator(name="seq-gen",sequenceName="ci_member_id_seq", allocationSize=1)
     @GeneratedValue(strategy= GenerationType.SEQUENCE, generator="seq-gen")
-
     private Long Id;
 
     @Column(name="ci_username")
