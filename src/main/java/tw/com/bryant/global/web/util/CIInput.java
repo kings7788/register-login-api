@@ -9,7 +9,8 @@ import javax.validation.constraints.NotNull;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class CIInput<T> {
+public class
+CIInput<T> {
 
     @NotNull
     private T body;

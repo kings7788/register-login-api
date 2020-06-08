@@ -166,7 +166,7 @@ Temporary Items
 ### PyCharm+all ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
-
+.idea/
 # User-specific stuff
 .idea/**/workspace.xml
 .idea/**/tasks.xml
@@ -235,7 +235,7 @@ fabric.properties
 # Ignores the whole .idea folder and all .iml files
 # See https://github.com/joeblau/gitignore.io/issues/186 and https://github.com/joeblau/gitignore.io/issues/360
 
-.idea/
+.idea/workspace.xml
 
 # Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
 
@@ -244,4 +244,5 @@ modules.xml
 .idea/misc.xml
 *.ipr
 
+target/classes/*
 

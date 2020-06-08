@@ -16,10 +16,11 @@ spring:
     continue-on-error: true
     jpa:
         hibernate:
+            ddl-auto: create
             naming_strategy: org.hibernate.cfg.EJB3NamingStrategy
             naming:
                 physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-#                  ddl-auto: create
+
             show-sql: true
         properties:
             hibernate:
@@ -27,3 +28,8 @@ spring:
                 temp:
                     use_jdbc_metadata_defaults: false
                 enable_lazy_load_no_trans: true
+    rabbitmq:
+        host: 127.0.0.1
+        port: 5672
+        username: guest
+        password: guest
