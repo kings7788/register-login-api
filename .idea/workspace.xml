@@ -2,28 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aea1cf8-36a3-4533-a9bd-06877cc93401" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tw/com/bryant/car/controller/CarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tw/com/bryant/car/model/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tw/com/bryant/car/model/CarRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tw/com/bryant/car/service/CarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tw/com/bryant/config/AsyncTaskConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tw/com/bryant/config/RabbitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tw/com/bryant/filter/IndexFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tw/com/bryant/listener/IndexListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tw/com/bryant/rabbitmq/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tw/com/bryant/rabbitmq/Sender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.com.bryant/HelloApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tw/com/bryant/config/document/DocketConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tw/com/bryant/config/web/WebResourceVersionMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tw/com/bryant/profile/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tw/com/bryant/util/ImageUpload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tw/com/bryant/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tw/com/bryant/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tw/com/bryant/global/web/util/CIInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tw/com/bryant/global/web/util/CIInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tw/com/bryant/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tw/com/bryant/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tw/com/bryant/HealthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tw/com/bryant/HealthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tw/com/bryant/car/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tw/com/bryant/car/controller/CarController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tw/com/bryant/HealthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tw/com/bryant/HealthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tw/com/bryant/global/web/util/CIInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tw/com/bryant/global/web/util/CIInput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tw/com/bryant/register/model/CIMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tw/com/bryant/register/model/CIMember.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

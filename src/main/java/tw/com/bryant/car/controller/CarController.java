@@ -1,5 +1,6 @@
 package tw.com.bryant.car.controller;
 
+import io.swagger.annotations.Api;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,18 +11,19 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import tw.com.bryant.car.model.Car;
 import tw.com.bryant.car.service.CarService;
+import tw.com.bryant.config.web.WebResourceVersionMarker;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.function.Function;
 
 @RestController
-@RequestMapping("/api/car")
-public class CarController {
+@Api(tags = "car")
+public class CarController extends WebResourceVersionMarker {
     private static final Logger LOGGER = LoggerFactory.getLogger(CarController.class);
     @Autowired
     private CarService carService;
-    @RequestMapping (method = RequestMethod.POST, consumes={MediaType.MULTIPART_FORM_DATA_VALUE},
+    @RequestMapping (value = "/api/car", method = RequestMethod.POST, consumes={MediaType.MULTIPART_FORM_DATA_VALUE},
             produces={MediaType.APPLICATION_JSON_VALUE})
     public @ResponseBody
     ResponseEntity uploadFile(
@@ -36,7 +38,7 @@ public class CarController {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
         }
     }
-    @RequestMapping (method = RequestMethod.GET, consumes={MediaType.APPLICATION_JSON_VALUE},
+    @RequestMapping (value = "/api/car", method = RequestMethod.GET, consumes={MediaType.APPLICATION_JSON_VALUE},
             produces={MediaType.APPLICATION_JSON_VALUE})
     public @ResponseBody
     CompletableFuture<ResponseEntity> getAllCars() {
